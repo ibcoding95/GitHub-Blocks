@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header {
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+}
+
+.cyan-row {
+    background-color: rgb(134, 254, 254);
+    width: 90vw;
+    height: 25vh;
+    margin: 25px;
+    padding: 35px;
+    display: flex;
+    justify-content:space-between ;
+}
+
+.pink-row{
+    background-color: pink;
+    width: 90vw;
+    height: 25vh;
+    margin: 25px;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.green-row {
+    background-color: green;
+    width: 90vw;
+    height: 25vh;
+    margin: 25px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer{
+    text-align: center;
+}
+
+.captain{
+    margin-right: 50px;
+}
